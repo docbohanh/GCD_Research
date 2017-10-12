@@ -12,6 +12,7 @@
 		9A431B4C1F8F632900C819F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A431B4A1F8F632900C819F0 /* Main.storyboard */; };
 		9A431B4E1F8F632900C819F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A431B4D1F8F632900C819F0 /* Assets.xcassets */; };
 		9A431B511F8F632900C819F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A431B4F1F8F632900C819F0 /* LaunchScreen.storyboard */; };
+		9A431B591F8F645100C819F0 /* Concurrency.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9A431B581F8F645100C819F0 /* Concurrency.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9A431B4D1F8F632900C819F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A431B501F8F632900C819F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A431B521F8F632900C819F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A431B581F8F645100C819F0 /* Concurrency.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Concurrency.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				9A431B461F8F632900C819F0 /* AppDelegate.swift */,
 				9A431B481F8F632900C819F0 /* ViewController.swift */,
+				9A431B581F8F645100C819F0 /* Concurrency.rtf */,
 				9A431B4A1F8F632900C819F0 /* Main.storyboard */,
 				9A431B4D1F8F632900C819F0 /* Assets.xcassets */,
 				9A431B4F1F8F632900C819F0 /* LaunchScreen.storyboard */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A431B591F8F645100C819F0 /* Concurrency.rtf in Resources */,
 				9A431B511F8F632900C819F0 /* LaunchScreen.storyboard in Resources */,
 				9A431B4E1F8F632900C819F0 /* Assets.xcassets in Resources */,
 				9A431B4C1F8F632900C819F0 /* Main.storyboard in Resources */,
