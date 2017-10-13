@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var pickerView: UIPickerView!
+    
+    var pickerDataSource: PickerDataSource!
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        setupPickerView()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +25,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func setupPickerView() {
+        pickerDataSource = PickerDataSource()
+        pickerDataSource.dataArray = (1...100).map { "Row " + String($0) }
+        
+        pickerView.dataSource = pickerDataSource
+        pickerView.delegate = pickerDataSource
+        
+    }
 
 }
-
